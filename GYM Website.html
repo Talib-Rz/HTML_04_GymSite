@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  * {
+    transition: 0.4s;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 130%;
+    width: 100%;
+  }
+
+  body {
+    background-image: url('https://wallpapercave.com/wp/wp5412909.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top;
+    /* background-position:bottom; */
+    height: 1740px;
+  }
+
+  .heading {
+    margin: 25px 15px 0px 15px;
+    background-color: #52525269;
+    color: white;
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 33px;
+  }
+
+  .heading:hover {
+    background-color: black;
+  }
+
+  h1 {
+    margin: 10px;
+    display: inline-block;
+
+    width: 50;
+    font-size: 50px;
+    font-weight: bolder;
+
+  }
+
+  h1:hover {
+    color: #7eff7e;
+    cursor: pointer;
+  }
+
+  .mid {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 28px;
+    margin: 10px 16px;
+    padding: 6px;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar li {
+    display: inline-block;
+    margin: 0px 100px;
+  }
+
+  .navbar li a {
+    display: block;
+    /* font-size: 100%; */
+    text-decoration: none;
+    margin: 2px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    background-color: #3d3d3d;
+  }
+
+  .navbar li a:hover {
+    background-color: black;
+    transform: scale(1.2);
+  }
+
+  .container {
+    position: absolute;
+    height: 227px;
+    left: 170px;
+    top: 300px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    background-color: #52525269;
+    border-radius: 20px;
+  }
+
+  .container h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+
+  }
+
+  .formitem {
+    margin-top: 6px;
+  }
+
+  .formitem input {
+    border-radius: 7px;
+    height: 22px;
+    width: 204px;
+    padding: 0px 7px;
+    text-align: justify;
+  }
+
+  .btn {
+
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  button {
+    color: #026402;
+    border-radius: 10px;
+    width: 102px;
+    cursor: pointer;
+    background-color: #90ff90;
+  }
+
+  button:hover {
+    transform: scale(1.2);
+    padding: 2px;
+  }
+
+  .container2 {
+    display: flex;
+    width: 1000px;
+    margin: 0px auto;
+    position: absolute;
+    left: 98px;
+    top: 850px;
+
+    /* border: 2px solid white; */
+    text-align: justify;
+  }
+
+  .heading2 {
+    border: 2px solid white;
+  }
+
+  .container2 h3 {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 11px;
+  }
+
+  .container2 h3:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .para2 {
+    /* padding: auto; */
+    margin: 20px;
+  }
+
+  .container3 {
+    display: block;
+    margin: 252px auto;
+    position: absolute;
+    left: 98px;
+    top: 900px;
+    width: 1000px;
+    border: 2px solid white;
+    text-align: justify;
+  }
+
+  .container3 h3 {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 11px;
+  }
+
+  .container3 h3:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .para3 {
+    /* padding: auto; */
+    margin: 20px;
+  }
+
+  .endbox {
+    display: block;
+    width: 1000px;
+    border: 2px solid white;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    color: black;
+    left: 98px;
+    top: 1400px;
+    background-color: white;
+  }
+
+  .boxelements {
+    text-align: center;
+  }
+
+  .boxelements li {
+    display: inline-block;
+    padding: 5px;
+    margin: 7px 75px;
+    /* border:2px solid red; */
+    border-radius: 20px;
+  }
+
+  .boxelements li:hover {
+    background-color: #353535;
+    color: white;
+    transform: scale(1.1);
+  }
+</style>
+
+<body>
+  <header>
+    <div class="heading">
+      <h1>POWER STATION GYM</h1>
+    </div>
+  </header>
+  <div class="mid">
+    <ul class="navbar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <h3>Register here</h3>
+    <form action="noaction.php">
+      <div class="formitem">
+        <input type="text" name="" placeholder="Enter your name" </div>
+        <div class="formitem">
+          <input type="text" name="" placeholder="Enter your age" </div>
+          <div class="formitem">
+            <input type="text" name="" placeholder="Enter your gender" </div>
+            <div class="formitem">
+              <input type="text" name="" placeholder="Enter your location" </div>
+              <div class="formitem">
+                <input type="text" name="" placeholder="Enter your phone number" </div>
+                <div class="btn">
+                  <button class="button">Sumbit</button>
+                </div>
+    </form>
+
+    <div class="container2">
+      <div class="heading2">
+        <h3>About</h3>
+        <p class="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis dolores rem voluptates dolore
+          voluptas ad, repellendus nostrum incidunt velit aspernatur non quaerat aut numquam. Cumque officia hic
+          corporis earum? Voluptatum similique nulla id sapiente?Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Facilis dolores rem voluptates dolore
+          voluptas ad, repellendus nostrum incidunt velit aspernatur non quaerat aut numquam. Cumque officia hic
+          corporis earum? Voluptatum similique nulla id sapiente?Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Facilis dolores rem voluptates dolore
+          voluptas ad, repellendus nostrum incidunt velit aspernatur non quaerat aut numquam. Cumque officia hic
+          corporis earum? Voluptatum similique.</p>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="heading3">
+        <h3>Gallery</h3>
+        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis dolores rem voluptates
+          doloreLorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis dolores rem voluptates dolorLorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Facilis dolores rem voluptates dolorLorem ipsum dolor sit,
+          amet consectetur adipisicing elit. Facilis dolores rem voluptates dolorLorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Facilis dolores rem voluptates dolorLorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Facilis dolores rem voluptates dolor. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+          dolores rem voluptates doloreLorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis dolores rem
+          voluptates dolorLorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+
+    <div class="endbox">
+      <div class="boxelements">
+        <li>instagram</li>
+        <li>youtube</li>
+        <li>Whatsapp</li>
+        <li>Linkedin</li>
+      </div>
+    </div>
+
+</body>
+
+</html>
